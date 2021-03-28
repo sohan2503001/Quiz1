@@ -7,7 +7,7 @@ console.log(chalk.yellow("Welcome 🙏  " + username));
 console.log("    ");
 console.log(chalk.yellow("Lets 🧐  see how much you know about me! 😁  "));
 console.log("  ");
-console.log(chalk.yellow("Type the correct ans(like-mumbai & 1st letter smallcase) from options a,b,c"));
+console.log(chalk.yellow("Type the correct option from options a,b,c"));
 console.log("  ");
 var score = 0;
 
@@ -51,52 +51,52 @@ function game(question, answer) {
 var questions = [
   {
     question: "1.What is my HomeTown? \na.nagpur \nb.chandrapur \nc.wardha \n",
-    answer: "chandrapur"
+    answer: "b"
   },
 
   {
     question: "2.What am I pursuing? \na.BSC \nb.engineering \nc.MBBS \n",
-    answer: "engineering" 
+    answer: "b" 
   },
 
   {
     question: "3.Which is my favourite Movie? \na.Kaho na pyaar hai \nb.Godfather \nc.Avengers \n",
-    answer: "godfather" 
+    answer: "b" 
   },
 
   {
-    question: "4.What do i like to do in free time? \na.Eat \nb.sleep \nc.watch \n",
-    answer: "sleep" 
+    question: "4.What do i like to do in free time? \na.Sleep \nb.Eat \nc.watch \n",
+    answer: "a" 
   },
 
   {
-    question: "5.What is my Favuorite singer? \na.Justin \nb.Dua \nc.Cardi \n",
-    answer: "dua" 
+    question: "5.What is my Favuorite singer? \na.Justin Bieber \nb.Cardi B \nc.Dua Lipa \n",
+    answer: "c" 
   },
 
   {
     question: "6.Which is my favourite Criket Player? \na.Rohit \nb.virat \nc.dhoni \n",
-    answer: "virat"
+    answer: "b"
   },
 
   {
     question: "7.What food i like the most? \na.Chinese \nb.Nonveg \nc.Sweet \n",
-    answer: "chinese"
+    answer: "a"
   },
 
   {
     question: "8.What is my Birthdate? \na.25March \nb.24March \nc.26March \n",
-    answer: "25march"
+    answer: "a"
   },
 
   {
     question: "9.What is my favourite social media? \na.linkedin \nb.instagram \nc.twitter \n",
-    answer: "twitter"
+    answer: "a"
   },
 
   {
     question: "10.What is my favourite actor? \na.pankaj tripathi \nb.sumeet vyas \nc.jitendra kumar \n",
-    answer: "jitendra kumar" 
+    answer: "c" 
   }
 ]
 
